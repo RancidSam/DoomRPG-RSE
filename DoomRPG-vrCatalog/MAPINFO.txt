@@ -1,0 +1,2537 @@
+CLEAREPISODES
+
+EPISODE OUTPOST
+{
+	name = "UAC Outpost"
+	key = "U"
+	optional
+}
+
+DEFAULTMAP
+{
+	nojump;
+	nocrouch;
+}
+
+/////////////////////////
+//                     //
+// 200 Minutes of /vr/ //
+//                     //
+/////////////////////////
+
+MAP TWO01 "Book It!"
+{
+	next = "TWO02"
+	secretNext = "TWO02"
+	music = "D_RUNNIN"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO02 "Brownout"
+{
+	next = "TWO03"
+	secretNext = "TWO03"
+	music = "D_STALKS"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO03 "Command Center"
+{
+	next = "TWO04"
+	secretNext = "TWO04"
+	music = "D_COUNTD"
+	sky1 = "TWOSKY1"
+	author = "!!2X5No4WhqAK"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO04 "Computer Array"
+{
+	next = "TWO05"
+	secretNext = "TWO05"
+	music = "MU_TWO04"
+	sky1 = "TWOSKY1"
+	author = "Onslaught Six"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO05 "The Dig"
+{
+	next = "TWO06"
+	secretNext = "TWO06"
+	music = "D_DOOM"
+	sky1 = "TWOSKY1"
+	author = "Braido"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO06 "Unearth"
+{
+	next = "TWO07"
+	secretNext = "TWO07"
+	music = "D_THE_DA"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO07 "Opening The Gates Of Hell"
+{
+	next = "TWO08"
+	secretNext = "TWO08"
+	music = "MU_TWO07"
+	sky1 = "TWOSKY1"
+	map07Special
+	author = "Onslaught Six"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO08 "Power Relay"
+{
+	next = "TWO09"
+	secretNext = "TWO09"
+	music = "D_DDTBLU"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO09 "Archives"
+{
+	next = "TWO10"
+	secretNext = "TWO10"
+	music = "D_IN_CIT"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO10 "Junxion"
+{
+	next = "TWO11"
+	secretNext = "TWO11"
+	music = "MU_TWO10"
+	sky1 = "TWOSKY1"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO11 "The Overhalls"
+{
+	next = "TWO12"
+	secretNext = "TWO12"
+	music = "D_DEAD"
+	sky1 = "TWOSKY1"
+	author = "Cheesewheel"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO12 "The Bridge"
+{
+	next = "TWO13"
+	secretNext = "TWO13"
+	music = "D_STLKS2"
+	sky1 = "TWOSKY2"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO13 "Cathedral of Pain"
+{
+	next = "TWO14"
+	secretNext = "TWO14"
+	music = "MU_TWO13"
+	sky1 = "TWOSKY2"
+	author = "Onslaught Six"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO14 "200 Minutes of Tech"
+{
+	next = "TWO15"
+	secretNext = "TWO15"
+	music = "MU_TWO14"
+	sky1 = "TWOSKY2"
+	author = "Cheesewheel"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO15 "Valley of Hatred"
+{
+	next = "TWO16"
+	secretNext = "TWO31"
+	music = "MU_TWO15"
+	sky1 = "TWOSKY2"
+	author = "Onslaught Six"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO16 "Frequently Given Advice"
+{
+	next = "TWO17"
+	secretNext = "TWO17"
+	music = "MU_TWO16"
+	sky1 = "TWOSKY2"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO17 "In Deep"
+{
+	next = "TWO18"
+	secretNext = "TWO18"
+	music = "D_STLKS3"
+	sky1 = "TWOSKY2"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO18 "Dead Cargo"
+{
+	next = "TWO19"
+	secretNext = "TWO19"
+	music = "MU_TWO18"
+	sky1 = "TWOSKY2"
+	author = "Sergeant Mark IV"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO19 "Duck and Cover"
+{
+	next = "TWO20"
+	secretNext = "TWO20"
+	music = "D_SHAWN2"
+	sky1 = "TWOSKY2"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO20 "Punch It!"
+{
+	next = "TWO21"
+	secretNext = "TWO21"
+	music = "D_MESSAG"
+	sky1 = "TWOSKY2"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO21 "Demon HQ"
+{
+	next = "TWO22"
+	secretNext = "TWO22"
+	music = "MU_TWO21"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO22 "Blood River"
+{
+	next = "TWO23"
+	secretNext = "TWO23"
+	music = "D_DDTBL3"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO23 "The Dance"
+{
+	next = "TWO24"
+	secretNext = "TWO24"
+	music = "D_AMPIE"
+	sky1 = "TWOSKY3"
+	author = "Fudge"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO24 "Ye Mighty And Despair"
+{
+	next = "TWO25"
+	secretNext = "TWO25"
+	music = "D_THEDA3"
+	sky1 = "TWOSKY3"
+	author = "Onslaught Six"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO25 "Home Sweet Hell"
+{
+	next = "TWO26"
+	secretNext = "TWO26"
+	music = "MU_TWO25"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO26 "200 Minutes of Hell"
+{
+	next = "TWO27"
+	secretNext = "TWO27"
+	music = "D_MESSG2"
+	sky1 = "TWOSKY3"
+	author = "Cheesewheel"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO27 "Walls of Jericho"
+{
+	next = "TWO28"
+	secretNext = "TWO28"
+	music = "D_ROMER2"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO28 "200 Minutes of Going Down"
+{
+	next = "TWO29"
+	secretNext = "TWO29"
+	music = "D_TENSE"
+	sky1 = "TWOSKY3"
+	author = "Cactuses"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO29 "Aggravatingly Cramped"
+{
+	next = "TWO30"
+	secretNext = "TWO30"
+	music = "D_SHAWN3"
+	sky1 = "TWOSKY3"
+	author = "RjY"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO30 "Carousel"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "D_OPENIN"
+	sky1 = "TWOSKY3"
+	allowMonsterTelefrags
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO31 "Brutto"
+{
+	next = "TWO16"
+	secretNext = "TWO32"
+	music = "MU_TWO31"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO32 "Sneek"
+{
+	next = "TWO33"
+	secretNext = "TWO33"
+	music = "D_ULTIMA"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+MAP TWO33 "Anachronism"
+{
+	next = "TWO16"
+	secretNext = "TWO16"
+	music = "D_DM2INT"
+	sky1 = "TWOSKY3"
+	author = "Anonymous"
+	interPic = "TWOINT"
+	exitPic = "TWOINT"
+	interMusic = "MU_TWOIN"
+}
+
+/////////////////////////
+//                     //
+// 300 Minutes of /vr/ //
+//                     //
+/////////////////////////
+
+MAP THR01 "Trench"
+{
+	next = "THR02"
+	secretNext = "THR02"
+	music = "MU_THR01"
+	sky1 = "THRSKY1"
+	author = "Rolo"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR02 "Curse of the Donuts"
+{
+	next = "THR03"
+	secretNext = "THR03"
+	music = "MU_THR02"
+	sky1 = "THRSKY1"
+	author = "Turret49"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR03 "Subterranean Hideout"
+{
+	next = "THR04"
+	secretNext = "THR04"
+	music = "MU_THR03"
+	sky1 = "THRSKY1"
+	author = "Repugnus"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR04 "Warehouse Cleanup"
+{
+	next = "THR05"
+	secretNext = "TH05"
+	music = "MU_THR04"
+	sky1 = "THRSKY1"
+	author = "Nuclear Potato"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR05 "Bay 54"
+{
+	next = "THR06"
+	secretNext = "THR06"
+	sky1 = "THRSKY1"
+	author = "Red"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR06 "Top Secret Labradoodle"
+{
+	next = "THR07"
+	secretNext = "THR07"
+	music = "MU_THR06"
+	sky1 = "THRSKY1"
+	author = "Revae"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR07 "Moonlit Harbor"
+{
+	next = "THR08"
+	secretNext = "THR08"
+	music = "MU_THR07"
+	sky1 = "THRSKY1"
+	map07Special
+	author = "A2Rob"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR08 "Syndicate"
+{
+	next = "THR09"
+	secretNext = "THR09"
+	sky1 = "THRSKY1"
+	author = "Rolo"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR09 "Go Slowly"
+{
+	next = "THR10"
+	secretNext = "THR10"
+	music = "MU_THR09"
+	sky1 = "THRSKY1"
+	author = "amok"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR10 "Crash Site"
+{
+	next = "THR11"
+	secretNext = "THR11"
+	music = "MU_THR10"
+	sky1 = "THRSKY1"
+	author = "HexenMapper"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR11 "Supreme Webbed Court"
+{
+	next = "THR12"
+	secretNext = "THR12"
+	music = "MU_THR11"
+	sky1 = "THRSKY1"
+	author = "Breezeep"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR12 "Conception"
+{
+	next = "THR13"
+	secretNext = "THR13"
+	music = "MU_THR12"
+	sky1 = "THRSKY2"
+	author = "sarais"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR13 "Graveland"
+{
+	next = "THR14"
+	secretNext = "THR14"
+	sky1 = "THRSKY2"
+	author = "Axebeard"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR14 "Blue Sanctuary"
+{
+	next = "THR15"
+	secretNext = "THR15"
+	music = "MU_THR14"
+	sky1 = "THRSKY2"
+	author = "Hebridean Isle"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR15 "The Room Out of Shape"
+{
+	next = "THR16"
+	secretNext = "THR31"
+	music = "MU_THR15"
+	sky1 = "THRSKY2"
+	author = "Breezeep"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR16 "Choose Your Path"
+{
+	next = "THR17"
+	secretNext = "THR17"
+	sky1 = "THRSKY2"
+	author = "Anonymous"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR17 "Toomb"
+{
+	next = "THR18"
+	secretNext = "THR18"
+	music = "MU_THR17"
+	sky1 = "THRSKY2"
+	author = "HexenMapper"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR18 "Saturday Night Codeine"
+{
+	next = "THR19"
+	secretNext = "THR19"
+	music = "MU_THR18"
+	sky1 = "THRSKY2"
+	author = "TerminusEst13"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR19 "Blood Feud"
+{
+	next = "THR20"
+	secretNext = "THR20"
+	music = "MU_THR19"
+	sky1 = "THRSKY2"
+	author = "Permuband"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR20 "Welcome to the Park"
+{
+	next = "THR21"
+	secretNext = "THR21"
+	music = "MU_THR20"
+	sky1 = "THRSKY2"
+	author = "RjY"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR21 "Collider"
+{
+	next = "THR22"
+	secretNext = "THR22"
+	music = "MU_THR21"
+	sky1 = "THRSKY3"
+	author = "amok"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR22 "The Punch Dimension"
+{
+	next = "THR23"
+	secretNext = "THR23"
+	music = "MU_THR22"
+	sky1 = "THRSKY3"
+	author = "Dogman"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR23 "Thy Flesh on a Platter"
+{
+	next = "THR24"
+	secretNext = "THR24"
+	sky1 = "THRSKY3"
+	author = "Anonymous"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR24 "Mt. Heck"
+{
+	next = "THR25"
+	secretNext = "THR25"
+	music = "MU_THR24"
+	sky1 = "THRSKY3"
+	author = "Skelly"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR25 "No Archviles Allowed"
+{
+	next = "THR26"
+	secretNext = "THR26"
+	sky1 = "THRSKY3"
+	author = "Xangi"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR26 "Praise Vanilla Wizard"
+{
+	next = "THR27"
+	secretNext = "THR27"
+	sky1 = "THRSKY3"
+	author = "Scroton"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR27 "Perfect Hatemail"
+{
+	next = "THR28"
+	secretNext = "THR28"
+	sky1 = "THRSKY3"
+	author = "Scroton"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR28 "Purgatori"
+{
+	next = "THR29"
+	secretNext = "THR29"
+	sky1 = "THRSKY3"
+	author = "charcola"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR29 "In Your Ass"
+{
+	next = "THR30"
+	secretNext = "THR30"
+	music = "MU_THR29"
+	sky1 = "THRSKY3"
+	author = "Party Boy"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR30 "Icon of Shame"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	sky1 = "THRSKY3"
+	allowMonsterTelefrags
+	author = "Repugnus"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR31 "Ultra-Progressive World"
+{
+	next = "THR16"
+	secretNext = "THR32"
+	music = "MU_THR31"
+	sky1 = "THRSKY3"
+	author = "TerminusEst13"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR32 "Spear of Insanity"
+{
+	next = "THR33"
+	secretNext = "THR33"
+	music = "MU_THR32"
+	sky1 = "THRSKY3"
+	author = "A2Rob"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+MAP THR33 "Warrenstein"
+{
+	next = "THR16"
+	secretNext = "THR16"
+	sky1 = "THRSKY3"
+	author = "Anonymous"
+	interPic = "THRINT"
+	exitPic = "THRINT"
+	interMusic = "MU_THRIN"
+}
+
+/////////////////////////
+//                     //
+// 100 Minutes of /vr/ //
+//                     //
+/////////////////////////
+
+MAP ONE01 "A Huge Gut Feeling"
+{
+	next = "ONE02"
+	secretNext = "ONE02"
+	music = "MU_THR01"
+	author = "Dogman"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE02 "Outpost"
+{
+	next = "ONE03"
+	secretNext = "ONE03"
+	music = "MU_THR02"
+	author = "Action Max"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE03 "Time to Crate"
+{
+	next = "ONE04"
+	secretNext = "ONE04"
+	music = "MU_ONE03"
+	author = "Action Max"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE04 "Coolant Recycling"
+{
+	next = "ONE05"
+	secretNext = "ONE05"
+	author = "Revae"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE05 "Nothing Amaze-ing"
+{
+	next = "ONE06"
+	secretNext = "ONE06"
+	author = "Anonymous"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE06 "Dehumanized"
+{
+	next = "ONE07"
+	secretNext = "ONE07"
+	music = "MU_THR06"
+	author = "PartyBoy"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE07 "Light and Simple"
+{
+	next = "ONE08"
+	secretNext = "ONE08"
+	music = "MU_THR07"
+	map07Special
+	author = "Action Max"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE08 "Hundomin"
+{
+	next = "ONE09"
+	secretNext = "ONE09"
+	author = "Revae"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE09 "Planet Boneguy"
+{
+	next = "ONE10"
+	secretNext = "ONE10"
+	author = "Raul the Ghoul"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE10 "Post Memoriam"
+{
+	next = "ONE11"
+	secretNext = "ONE11"
+	music = "MU_THR10"
+	author = "A2Rob"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE11 "Le Sang Du Sorcier"
+{
+	next = "ONE12"
+	secretNext = "ONE12"
+	music = "MU_THR11"
+	author = "Action Max"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE12 "MAP01_1"
+{
+	next = "ONE13"
+	secretNext = "ONE13"
+	author = "Anonymous"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE13 "Beneath the Slums"
+{
+	next = "ONE14"
+	secretNext = "ONE14"
+	music = "MU_THR13"
+	author = "Mosin Nagant"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+MAP ONE14 "Credits"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	author = "Anonymous"
+	interPic = "ONEINT"
+	exitPic = "ONEINT"
+}
+
+////////////////////////
+//                    //
+// 2048 Units of /vr/ //
+//                    //
+////////////////////////
+
+MAP TWE01 "Gatehouse"
+{
+	next = "TWE02"
+	secretNext = "TWE02"
+	music = "MU_TWE01"
+	sky1 = "TWESKY1"
+	author = "Spooky Cacodemon"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE02 "You're a drunk loser, and not the cool kind"
+{
+	next = "TWE03"
+	secretNext = "TWE03"
+	music = "MU_TWE02"
+	sky1 = "TWESKY1"
+	author = "aan"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE03 "Roundabout Cliffside"
+{
+	next = "TWE04"
+	secretNext = "TWE04"
+	music = "MU_TWE03"
+	sky1 = "TWESKY1"
+	author = "SandSculker"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE04 "Lobachevsky Overdrive"
+{
+	next = "TWE05"
+	secretNext = "TWE05"
+	music = "MU_TWE04"
+	sky1 = "TWESKY1"
+	author = "Khodoque"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE05 "Arrogance and Contempt"
+{
+	next = "TWE06"
+	secretNext = "TWE06"
+	music = "MU_TWE05"
+	sky1 = "TWESKY1"
+	author = "EnragedEggplant"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE06 "An Appointment With Mr. Pain"
+{
+	next = "TWE07"
+	secretNext = "TWE07"
+	music = "MU_TWE06"
+	sky1 = "TWESKY1"
+	author = "ViolentBeetle"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE07 "Forsaken Stockades"
+{
+	next = "TWE08"
+	secretNext = "TWE08"
+	music = "MU_TWE07"
+	sky1 = "TWESKY1"
+	author = "ChopBlock223"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE08 "Belial's Bachelor Pad"
+{
+	next = "TWE09"
+	secretNext = "TWE09"
+	music = "MU_TWE08"
+	sky1 = "TWESKY1"
+	author = "Repugnus"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE09 "Percipice HQ (2048wipV2)"
+{
+	next = "TWE10"
+	secretNext = "TWE10"
+	music = "MU_TWE09"
+	sky1 = "TWESKY1"
+	author = "Mr. B"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE10 "Sewers"
+{
+	next = "TWE11"
+	secretNext = "TWE11"
+	music = "MU_TWE10"
+	sky1 = "TWESKY1"
+	author = "Sitri"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE11 "Retirment Grease"
+{
+	next = "TWE12"
+	secretNext = "TWE12"
+	music = "MU_TWE11"
+	sky1 = "TWESKY1"
+	author = "Sitri"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE12 "Suspiral"
+{
+	next = "TWE13"
+	secretNext = "TWE13"
+	music = "MU_TWE12"
+	sky1 = "TWESKY2"
+	author = "punch you in the face man"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE13 "Barge In"
+{
+	next = "TWE14"
+	secretNext = "TWE14"
+	music = "MU_TWE13"
+	sky1 = "TWESKY2"
+	author = "Khodoque"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE14 "Shipwreck Cavern"
+{
+	next = "TWE15"
+	secretNext = "TWE15"
+	music = "MU_TWE14"
+	sky1 = "TWESKY2"
+	author = "Samuel Samuelson"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE15 "Calignious Cauldron"
+{
+	next = "TWE16"
+	secretNext = "TWE31"
+	music = "MU_TWE15"
+	sky1 = "TWESKY2"
+	author = "Washing Machine Enthusiasts"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE16 "Ghoul Grotto"
+{
+	next = "TWE17"
+	secretNext = "TWE17"
+	music = "MU_TWE16"
+	sky1 = "TWESKY2"
+	author = "Brxyz"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE17 "30 Days in the Cooler For Talking"
+{
+	next = "TWE18"
+	secretNext = "TWE18"
+	music = "MU_TWE17"
+	sky1 = "TWESKY2"
+	author = "A2Rob"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE18 "Straight Walled Rooms"
+{
+	next = "TWE19"
+	secretNext = "TWE19"
+	music = "MU_TWE18"
+	sky1 = "TWESKY2"
+	author = "manuk3r"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE19 "Trifecta"
+{
+	next = "TWE20"
+	secretNext = "TWE20"
+	music = "MU_TWE19"
+	sky1 = "TWESKY2"
+	author = "kakroucz"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE20 "Baal's Coliseum"
+{
+	next = "TWE21"
+	secretNext = "TWE21"
+	music = "MU_TWE20"
+	sky1 = "TWESKY2"
+	author = "Bartekmil"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE21 "Tiny Fragment"
+{
+	next = "TWE22"
+	secretNext = "TWE22"
+	music = "MU_TWE21"
+	sky1 = "TWESKY3"
+	author = "charcola"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE22 "The Wretched Scythe Hole"
+{
+	next = "TWE23"
+	secretNext = "TWE23"
+	music = "MU_TWE22"
+	sky1 = "TWESKY3"
+	author = "aan"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE23 "For They Defiled Our Waters"
+{
+	next = "TWE24"
+	secretNext = "TWE24"
+	music = "MU_TWE23"
+	sky1 = "TWESKY3"
+	author = "LunchLunch"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE24 "Badass Billy's Party Palace (formerly Good Boy's Club)"
+{
+	next = "TWE25"
+	secretNext = "TWE25"
+	music = "MU_TWE24"
+	sky1 = "TWESKY3"
+	author = "Anonymous Sloth"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE25 "Maniacal Menstruation"
+{
+	next = "TWE26"
+	secretNext = "TWE26"
+	music = "MU_TWE25"
+	sky1 = "TWESKY3"
+	author = "Anonymous"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE26 "The Dark Sanctuary"
+{
+	next = "TWE27"
+	secretNext = "TWE27"
+	music = "MU_TWE26"
+	sky1 = "TWESKY3"
+	author = "Vaeros"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE27 "Welcome to the Peanut Gallery"
+{
+	next = "TWE28"
+	secretNext = "TWE28"
+	music = "MU_TWE27"
+	sky1 = "TWESKY3"
+	author = "LunchLunch"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE28 "Bleak Cinders"
+{
+	next = "TWE29"
+	secretNext = "TWE29"
+	music = "MU_TWE28"
+	sky1 = "TWESKY3"
+	author = "ChopBlock223"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE29 "Black Crest"
+{
+	next = "TWE30"
+	secretNext = "TWE30"
+	music = "MU_TWE29"
+	sky1 = "TWESKY3"
+	author = "Brxyz"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE30 "Tyrant's Starless Realms"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "MU_TWE30"
+	sky1 = "TWESKY3"
+	author = "ChopBlock223"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE31 "Minimalism"
+{
+	next = "TWE16"
+	secretNext = "TWE32"
+	music = "MU_TWE31"
+	sky1 = "TWESKY3"
+	author = "Washing Machine Enthusiasts"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWE32 "Club Boom"
+{
+	next = "TWE16"
+	secretNext = "TWE16"
+	music = "MU_TWE32"
+	sky1 = "TWESKY3"
+	author = "Washing Machine Enthusiasts"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+// 2048EX maps
+
+MAP TWX01 "Vehement Onslaught"
+{
+	next = "TWX02"
+	secretNext = "TWX02"
+	music = "MU_TWX01"
+	sky1 = "TWESKY1"
+	author = "ChopBlock223"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWX02 "The Dark Below"
+{
+	next = "TWX03"
+	secretNext = "TWX03"
+	music = "MU_TWX02"
+	sky1 = "TWESKY1"
+	author = "ChopBlock223"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWX03 "Pointing You the Way Out"
+{
+	next = "TWX04"
+	secretNext = "TWX04"
+	music = "MU_TWX03"
+	sky1 = "TWESKY1"
+	author = "Anonymous"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWX04 "Roundabout"
+{
+	next = "TWX05"
+	secretNext = "TWX05"
+	music = "MU_TWX04"
+	sky1 = "TWESKY1"
+	author = "Anonymous"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWX05 "Inner Cloister"
+{
+	next = "TWX06"
+	secretNext = "TWX06"
+	music = "MU_TWX05"
+	sky1 = "TWESKY1"
+	author = "Anonymous"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+MAP TWX06 "Missy Elliot Rodgers"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "MU_TWX06"
+	sky1 = "TWESKY1"
+	author = "Anonymous"
+	interPic = "TWEINT"
+	exitPic = "TWEINT"
+	intermusic = "MU_TWEIN"
+}
+
+//////////
+//      //
+// HFFM //
+//      //
+//////////
+
+MAP HFF01 "Ruinous Hole"
+{
+	next = "HFF02"
+	secretNext = "HFF02"
+	music = "MU_HFF01"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF02 "Bearhouse"
+{
+	next = "HFF03"
+	secretNext = "HFF03"
+	music = "MU_HFF02"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF03 "Piss Easy"
+{
+	next = "HFF04"
+	secretNext = "HFF04"
+	music = "MU_HFF03"
+	sky1 = "HFFSKY1"
+	author = "unf."
+}
+
+MAP HFF04 "Code Supression"
+{
+	next = "HFF05"
+	secretNext = "HFF05"
+	music = "MU_HFF04"
+	sky1 = "HFFSKY1"
+	author = "a2rob"
+}
+
+MAP HFF05 "Faggot Single Finish"
+{
+	next = "HFF06"
+	secretNext = "HFF06"
+	music = "MU_HFF05"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF06 "Fudge Packers Inc."
+{
+	next = "HFF07"
+	secretNext = "HFF07"
+	music = "MU_HFF06"
+	sky1 = "HFFSKY1"
+	author = "Captain Mozzarella"
+}
+
+MAP HFF07 "Full Thrust"
+{
+	next = "HFF08"
+	secretNext = "HFF08"
+	music = "MU_HFF07"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF08 "Drain Snake"
+{
+	next = "HFF09"
+	secretNext = "HFF09"
+	music = "MU_HFF08"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF09 "Jawbreaker"
+{
+	next = "HFF10"
+	secretNext = "HFF10"
+	music = "MU_HFF09"
+	sky1 = "HFFSKY1"
+	author = "DR_FUCKHEAD"
+}
+
+MAP HFF10 "Heart Attack"
+{
+	next = "HFF11"
+	secretNext = "HFF11"
+	music = "MU_HFF10"
+	sky1 = "HFFSKY1"
+	author = "Anonymous"
+}
+
+MAP HFF11 "Just Be Yourself"
+{
+	next = "HFF12"
+	secretNext = "HFF12"
+	music = "MU_HFF11"
+	sky1 = "HFFSKY1"
+	author = "Hand-peeled"
+}
+
+MAP HFF12 "Later Forever"
+{
+	next = "HFF13"
+	secretNext = "HFF13"
+	music = "MU_HFF12"
+	sky1 = "HFFSKY2"
+	author = "lunchlunch"
+}
+
+MAP HFF13 "The Leather Club"
+{
+	next = "HFF14"
+	secretNext = "HFF14"
+	music = "MU_HFF13"
+	sky1 = "HFFSKY2"
+	author = "Captain Mozzarella"
+}
+
+MAP HFF14 "Somewhat Possible"
+{
+	next = "HFF15"
+	secretNext = "HFF15"
+	music = "MU_HFF14"
+	sky1 = "HFFSKY2"
+	author = "lunchlunch"
+}
+
+MAP HFF15 "Temple of Flesh"
+{
+	next = "HFF16"
+	secretNext = "HFF16"
+	music = "MU_HFF15"
+	sky1 = "HFFSKY2"
+	author = "Anonymous"
+}
+
+MAP HFF16 "I Sawed The Demons (And They Were Pretty Hot)"
+{
+	next = "HFF17"
+	secretNext = "HFF17"
+	music = "MU_HFF16"
+	sky1 = "HFFSKY2"
+	author = "Anonymous"
+}
+
+MAP HFF17 "Take Ten Guys"
+{
+	next = "HFF18"
+	secretNext = "HFF18"
+	music = "MU_HFF17"
+	sky1 = "HFFSKY2"
+	author = "Anonymous"
+}
+
+MAP HFF18 "Occult"
+{
+	next = "HFF19"
+	secretNext = "HFF19"
+	music = "MU_HFF18"
+	sky1 = "HFFSKY2"
+	author = "Anonymous"
+}
+
+MAP HFF19 "Thanks For Playing!"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "MU_HFF19"
+	sky1 = "HFFSKY2"
+	author = "Anonymous"
+}
+
+/////////////////////////
+//                     //
+// 400 Minutes of /vr/ //
+//                     //
+/////////////////////////
+
+MAP FOU01 "Blood Refinery"
+{
+	next = "FOU02"
+	secretNext = "FOU02"
+	music = "MU_FOU01"
+	enterPic = "FOUI01"
+	exitPic = "FOUI02"
+	sky1 = "SKY1"
+	author = "Redead-ITA"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU02 "Compound Fracture"
+{
+	next = "FOU03"
+	secretNext = "FOU03"
+	music = "MU_FOU02"
+	enterPic = "FOUI02"
+	exitPic = "FOUI03"
+	sky1 = "SKY1"
+	author = "Sitri"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU3 "Mister Pain Returns"
+{
+	next = "FOU04"
+	secretNext = "FOU04"
+	music = "MU_FOU03"
+	enterPic = "FOUI03"
+	exitPic = "FOUI04"
+	sky1 = "SKY1"
+	author = "ViolentBeetle"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU04 "Cracked"
+{
+	next = "FOU05"
+	secretNext = "FOU05"
+	music = "MU_FOU04"
+	enterPic = "FOUI04"
+	exitPic = "FOUI05"
+	sky1 = "SKY1"
+	author = "Anonymous"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU05 "Moon Crater"
+{
+	next = "FOU06"
+	secretNext = "FOU06"
+	music = "MU_FOU05"
+	enterPic = "FOUI05"
+	exitPic = "FOUI06"
+	sky1 = "SKY6"
+	author = "EnragedEggplant"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU06 "Southwest Frag"
+{
+	next = "FOU07"
+	secretNext = "FOU07"
+	music = "MU_FOU06"
+	enterPic = "FOUI06"
+	exitPic = "FOUI07"
+	sky1 = "SKY1"
+	author = "Desert Yeti"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU07 "Seeing Red"
+{
+	next = "FOU08"
+	secretNext = "FOU08"
+	music = "MU_FOU07"
+	enterPic = "FOUI07"
+	exitPic = "FOUI08"
+	sky1 = "SKY1"
+	author = "A2Rob"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU08 "Acid Curve"
+{
+	next = "FOU09"
+	secretNext = "FOU09"
+	music = "MU_FOU08"
+	enterPic = "FOUI08"
+	exitPic = "FOUI09"
+	sky1 = "SKY1"
+	author = "Redead-ITA"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU09 "Live Complex"
+{
+	next = "FOU10"
+	secretNext = "FOU10"
+	music = "MU_FOU09"
+	enterPic = "FOUI09"
+	exitPic = "FOUI10"
+	sky1 = "SKY6"
+    specialAction = "Arachnotron", "Floor_RaiseToNearest", 667, 16
+    specialAction = "Fatso", "Floor_LowerToLowest", 666, 16
+	author = "NepNep"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU10 "Blood Office"
+{
+	next = "FOU11"
+	secretNext = "FOU36"
+	music = "MU_FOU10"
+	enterPic = "FOUI10"
+	exitPic = "FOUI11"
+	sky1 = "SKY1"
+	author = "Anonymous"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU11 "I am the Fat Rabbit"
+{
+	next = "FOU12"
+	secretNext = "FOU12"
+	music = "MU_FOU11"
+	enterPic = "FOUI11"
+	exitPic = "FOUI12"
+	sky1 = "SKY1"
+	author = "Revae"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU12 "Biskelion"
+{
+	next = "FOU13"
+	secretNext = "FOU13"
+	music = "MU_FOU12"
+	enterPic = "FOUI12"
+	exitPic = "FOUI13"
+	sky1 = "SKY2"
+	author = "Wolpertinger"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU13 "Undying Manor"
+{
+	next = "FOU14"
+	secretNext = "FOU14"
+	music = "MU_FOU13"
+	enterPic = "FOUI13"
+	exitPic = "FOUI14"
+	sky1 = "SKY2"
+	author = "ttu"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU14 "I'll Be Here 'Til I'm Dead"
+{
+	next = "FOU15"
+	secretNext = "FOU15"
+	music = "MU_FOU14"
+	enterPic = "FOUI14"
+	exitPic = "FOUI15"
+	sky1 = "SKY2"
+	author = "Rancid Sam"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU15 "Eversion"
+{
+	next = "FOU16"
+	secretNext = "FOU16"
+	music = "MU_FOU15"
+	enterPic = "FOUI15"
+	exitPic = "FOUI16"
+	sky1 = "SKY2"
+	author = "Bartekmil"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU16 "The Creature From Plaque Lagoon"
+{
+	next = "FOU17"
+	secretNext = "FOU17"
+	music = "MU_FOU16"
+	enterPic = "FOUI16"
+	exitPic = "FOUI17"
+	sky1 = "SKY2"
+	author = "Captain Mozzarella"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU17 "Archahellago"
+{
+	next = "FOU18"
+	secretNext = "FOU18"
+	music = "MU_FOU17"
+	enterPic = "FOUI17"
+	exitPic = "FOUI18"
+	sky1 = "SKY3"
+	author = "Sitri"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU18 "Technocratic Insanity (AKA, Telefrag)"
+{
+	next = "FOU19"
+	secretNext = "FOU19"
+	music = "MU_FOU18"
+	enterPic = "FOUI18"
+	exitPic = "FOUI19"
+	sky1 = "SKY2"
+	author = "Anonymous"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU19 "Soul Survivor"
+{
+	next = "FOU20"
+	secretNext = "FOU20"
+	music = "MU_FOU19"
+	enterPic = "FOUI19"
+	exitPic = "FOUI20"
+	sky1 = "SKYD4"
+	author = "ASO3000"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU20 "Garbage Brain"
+{
+	next = "FOU21"
+	secretNext = "FOU21"
+	music = "MU_FOU20"
+	enterPic = "FOUI20"
+	exitPic = "FOUI21"
+	sky1 = "SKY6"
+	author = "Coffee Achiever"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU21 "Could be Worse"
+{
+	next = "FOU22"
+	secretNext = "FOU22"
+	music = "MU_FOU21"
+	enterPic = "FOUI21"
+	exitPic = "FOUI22"
+	sky1 = "SKY3"
+	author = "Hand-peeled"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU22 "Erosion of Sanity"
+{
+	next = "FOU23"
+	secretNext = "FOU23"
+	music = "MU_FOU22"
+	enterPic = "FOUI22"
+	exitPic = "FOUI23"
+	sky1 = "SKY3"
+	author = "Kuramori"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU23 "Dash Tower"
+{
+	next = "FOU24"
+	secretNext = "FOU24"
+	music = "MU_FOU23"
+	enterPic = "FOUI23"
+	exitPic = "FOUI24"
+	sky1 = "SKY1"
+	author = "zipon"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU24 "Yass Queen, Flay!"
+{
+	next = "FOU25"
+	secretNext = "FOU25"
+	music = "MU_FOU24"
+	enterPic = "FOUI24"
+	exitPic = "FOUI25"
+	sky1 = "SKY3"
+	author = "Washing Machine Enthusiasts"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU25 "Kratom Withdrawal"
+{
+	next = "FOU26"
+	secretNext = "FOU26"
+	music = "MU_FOU25"
+	enterPic = "FOUI25"
+	exitPic = "FOUI26"
+	sky1 = "SKY3"
+	author = "lunchlunch"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU26 "Ultra Monkey Likes Daddy"
+{
+	next = "FOU27"
+	secretNext = "FOU27"
+	music = "MU_FOU26"
+	enterPic = "FOUI26"
+	exitPic = "FOUI27"
+	sky1 = "SKY3"
+	author = "NepNep"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU27 "Where Girls Learn to Pee on Command"
+{
+	next = "FOU28"
+	secretNext = "FOU28"
+	music = "MU_FOU27"
+	enterPic = "FOUI28"
+	exitPic = "FOUI29"
+	sky1 = "SKY3"
+	author = "MacGuffin"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU28 "Caves of Koone"
+{
+	next = "FOU29"
+	secretNext = "FOU29"
+	music = "MU_FOU28"
+	enterPic = "FOUI29"
+	exitPic = "FOUI30"
+	sky1 = "SKY3"
+	author = "charcola"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU29 "Tuck Me Into Ramza's Foreskin"
+{
+	next = "FOU31"
+	secretNext = "FOU31"
+	music = "MU_FOU29"
+	enterPic = "FOUI30"
+	exitPic = "FOUI31"
+	sky1 = "SKY3"
+	author = "Rancid Sam"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU31 "Magog a Go-Go"
+{
+	next = "FOU32"
+	secretNext = "FOU32"
+	music = "MU_FOU31"
+	enterPic = "FOUI31"
+	exitPic = "FOUI32"
+	sky1 = "SKYD1B"
+	author = "Coffee Achiever"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU32 "Sisyphus's Chrysalises"
+{
+	next = "FOU33"
+	secretNext = "FOU33"
+	music = "MU_FOU32"
+	enterPic = "FOUI32"
+	exitPic = "FOUI33"
+	sky1 = "SKY3"
+	author = "Anonymous"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU33 "400 Line Actions"
+{
+	next = "FOU34"
+	secretNext = "FOU34"
+	music = "MU_FOU33"
+	enterPic = "FOUI33"
+	exitPic = "FOUI34"
+	sky1 = "SKY3"
+	author = "Anonymous"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU34 "Feuer frei!"
+{
+	next = "FOU35"
+	secretNext = "FOU35"
+	music = "MU_FOU34"
+	enterPic = "FOUI34"
+	exitPic = "FOUI35"
+	sky1 = "SKY3"
+	author = "brxyz"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU35 "Megatron"
+{
+	next = "FOU30"
+	secretNext = "FOU30"
+	music = "MU_FOU35"
+	enterPic = "FOUI35"
+	exitPic = "FOUI36"
+	sky1 = "UACSKY2"
+	specialAction = "SpiderMastermind", "Floor_LowerToNearest", 420, 32
+	author = "punch you in the face man"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU30 "House of Fun"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "MU_FOU30"
+	enterPic = "FOUI37"
+	exitPic = "FOUI37"
+	sky1 = "SKY3"
+	author = "Washing Machine Enthusiasts"
+	intermusic = "MU_FOUIN"
+}
+
+// Secret maps
+
+MAP FOU36 "Invaded Space"
+{
+	next = "FOU10"
+	secretNext = "FOU37"
+	music = "MU_FOU36"
+	enterPic = "FOUI09"
+	exitPic = "FOUI09"
+	sky1 = "SKY6"
+	author = "Sitri"
+	intermusic = "MU_FOUIN"
+}
+
+MAP FOU37 "Pac You in the Face Man"
+{
+	next = "FOU10"
+	secretNext = "FOU10"
+	music = "MU_FOU37"
+	enterPic = "FOUI09"
+	exitPic = "FOUI09"
+	sky1 = "SKY6"
+	author = "punch you in the face man"
+	intermusic = "MU_FOUIN"
+}
+
+//////////////////////////
+//                      //
+// 512 Linedefs of /vr/ //
+//                      //
+//////////////////////////
+
+MAP FIV01 "Underblown Budget"
+{
+	next = "FIV02"
+	secretNext = "FIV02"
+	music = "MU_FIV01"
+	sky1 = "UACSKY1"
+	author = "Redead-ITA"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV02 "Deck 512"
+{
+	next = "FIV03"
+	secretNext = "FIV03"
+	music = "MU_FIV02"
+	sky1 = "UACSKY1"
+	author = "EnragedEggplant"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV03 "BFG Multiplication"
+{
+	next = "FIV04"
+	secretNext = "FIV04"
+	music = "MU_FIV03"
+	sky1 = "UACSKY1"
+	author = "GuyWithTeaCup"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV04 "iron512"
+{
+	next = "FIV05"
+	secretNext = "FIV05"
+	music = "MU_FIV04"
+	sky1 = "UACSKY1"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV05 "Mission Vambee"
+{
+	next = "FIV06"
+	secretNext = "FIV06"
+	music = "MU_FIV05"
+	sky1 = "UACSKY1"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV06 "511 Lines of Horror"
+{
+	next = "FIV07"
+	secretNext = "FIV07"
+	music = "MU_FIV06"
+	sky1 = "UACSKY1"
+	author = "Murm"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV07 "Slivovitz Liver Massacre"
+{
+	next = "FIV08"
+	secretNext = "FIV08"
+	music = "MU_FIV07"
+	sky1 = "UACSKY3"
+	author = "ASO3000"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV08 "Tomes & Triggers"
+{
+	next = "FIV09"
+	secretNext = "FIV09"
+	music = "MU_FIV08"
+	sky1 = "UACSKY1"
+	author = "desert yeti"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV09 "Hit Play Half Cocked"
+{
+	next = "FIV10"
+	secretNext = "FIV10"
+	music = "MU_FIV09"
+	sky1 = "UACSKY1"
+	author = "Revae"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV10 "Hospice Relief"
+{
+	next = "FIV11"
+	secretNext = "FIV11"
+	music = "MU_FIV10"
+	sky1 = "UACSKY1"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV11 "Screen Dream"
+{
+	next = "FIV12"
+	secretNext = "FIV12"
+	music = "MU_FIV11"
+	sky1 = "UACSKY1"
+	author = "Zipon"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV12 "Electrical System"
+{
+	next = "FIV13"
+	secretNext = "FIV13"
+	music = "MU_FIV12"
+	sky1 = "UACSKY2"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV13 "You're Not The Kind That Needs To Tell Me About The Birds And The Bees"
+{
+	next = "FIV14"
+	secretNext = "FIV14"
+	music = "MU_FIV13"
+	sky1 = "UACSKY1"
+	author = "RancidSam"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV14 "Public Castration Is A Good Idea"
+{
+	next = "FIV15"
+	secretNext = "FIV15"
+	music = "MU_FIV14"
+	sky1 = "UACSKY1"
+	specialAction = "SpiderMastermind", "Door_Open", 5, 16
+	author = "washingmachinewashingmachine"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV15 "Shirikodama Salad"
+{
+	next = "FIV16"
+	secretNext = "FIV16"
+	music = "MU_FIV15"
+	sky1 = "UACSKY2"
+	author = "MacGuffin"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV16 "Helter Smelter"
+{
+	next = "FIV17"
+	secretNext = "FIV17"
+	music = "MU_FIV16"
+	sky1 = "UACSKY2"
+	author = "ViolentBeetle"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV17 "Cordova Town"
+{
+	next = "FIV18"
+	secretNext = "FIV18"
+	music = "MU_FIV17"
+	sky1 = "UACSKY1"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV18 "Assyrian Drive"
+{
+	next = "FIV19"
+	secretNext = "FIV19"
+	music = "MU_FIV18"
+	sky1 = "UACSKY2"
+	author = "GuyWithTeaCup"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV19 "Maybe you dance"
+{
+	next = "FIV20"
+	secretNext = "FIV20"
+	music = "MU_FIV19"
+	sky1 = "UACSKY2"
+	author = "Hege Cactus"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV20 "Touchplate Trouble"
+{
+	next = "FIV21"
+	secretNext = "FIV21"
+	music = "MU_FIV20"
+	sky1 = "UACSKY2"
+	author = "donk_konk"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV21 "I Actually Like Nirvana"
+{
+	next = "FIV22"
+	secretNext = "FIV22"
+	music = "MU_FIV21"
+	sky1 = "RSKY3"
+	author = "LunchLunch"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV22 "Shadow Puppets"
+{
+	next = "FIV23"
+	secretNext = "FIV23"
+	music = "MU_FIV22"
+	sky1 = "UACSKY3"
+	author = "Wolpertinger"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV23 "Egg Shell Sandwich"
+{
+	next = "FIV24"
+	secretNext = "FIV24"
+	music = "MU_FIV23"
+	sky1 = "UACSKY3"
+	author = "Hand-peeled"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV24 "Last night I bonded with your sister"
+{
+	next = "FIV25"
+	secretNext = "FIV25"
+	music = "MU_FIV24"
+	sky1 = "UACSKY3"
+	author = "Bartekmil"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV25 "Cubic Conundrum"
+{
+	next = "FIV26"
+	secretNext = "FIV26"
+	music = "MU_FIV25"
+	sky1 = "UACSKY3"
+	author = "ASO3000"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV26 "512 Nights in Arabia"
+{
+	next = "FIV27"
+	secretNext = "FIV27"
+	music = "MU_FIV26"
+	sky1 = "UACSKY3"
+	author = "brxyz"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV27 "Flynn Taggart Dies In Magma!"
+{
+	next = "FIV28"
+	secretNext = "FIV28"
+	music = "MU_FIV27"
+	sky1 = "UACSKY1"
+	author = "NepNep"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV28 "Romero's Secret Pizza Party"
+{
+	next = "FIV29"
+	secretNext = "FIV29"
+	music = "MU_FIV28"
+	sky1 = "UACSKY3"
+	author = "Jarmo"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV29 "Forkheads.tk"
+{
+	next = "FIV30"
+	secretNext = "FIV30"
+	music = "MU_FIV29"
+	sky1 = "UACSKY3"
+	specialAction = "Cyberdemon", "Door_Open", 666, 16
+	author = "RancidSam"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV30 "In The Linedef Of Fire"
+{
+	next = "OUTPOST"
+	secretNext = "OUTPOST"
+	music = "MU_FIV30"
+	sky1 = "UACSKY3"
+	author = "GuyWithTeaCup"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV31 "Jackie Chan Doesn't Want Any Trouble"
+{
+	next = "FIV16"
+	secretNext = "FIV32"
+	music = "MU_FIV31"
+	sky1 = "UACSKY1"
+	author = "Anonymous"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+}
+
+MAP FIV32 "this is nice map"
+{
+	next = "FIV16"
+	secretNext = "FIV16"
+	music = "MU_FIV32"
+	sky1 = "UACSKY1"
+	author = "Yuji Sakai"
+	interPic = "FIVINT"
+	exitPic = "FIVINT"
+	intermusic = "MU_FIVIN"
+	intermusic = "MU_FIVIN"
+}
+
+// Cluster definitions
+
+CLUSTER 63
+{
+	flat = "004F"
+	music = "MU_FIVRM"
+	exitText = "When you were first called out to this",
+				"colony you thought it was simple",
+				"cleanup duty, but you thought wrong.",
+				"",
+				"Touching the door marked danger was a",
+				"terrible idea.",
+				"Suddenly, demonic energies reach out,",
+				"grab your soul,",
+				"And drag you deeper into the abyss...",
+				"",
+				"You find yourself in front of another",
+				"UAC storage building, but something",
+				"feels different..."
+}
+
+CLUSTER 64
+{
+	flat = "006F"
+	music = "MU_FIVRM"
+	exitText = "What the hell? You really hope you're",
+				"being paid overtime for this.",
+				"It's become clear that this is more than",
+				"just some demonic stragglers",
+				"like your CO told you back at home base.",
+				"This is an entire demon army.",
+				"Still, it ain't nothing you haven't handled",
+				"before.",
+				"",
+				"You gear up. According to the signage, this",
+				"is the electrical systems for the damn colony.",
+				"And some big ol' monster is using it as a",
+				"freaking vacation home.",
+				"Luckily, you're the eviction notice."
+}
+
+CLUSTER 65
+{
+	flat = "024F"
+	music = "MU_FIVRM"
+	exitText = "There's a few telltale signs of",
+				"demonic corruption.",
+				"Lava. Blood. The screams of the damned.",
+				"And lots, and lots, and lots, and lots",
+				"of demon scum to eradicate.",
+				"You realize that the army you splattered",
+				"all over the colony was just a small",
+				"platoon compared to what gigantic",
+				"horde of demon, monster, and nazi",
+				"scum you're about to blow out",
+				"of existence!",
+				"",
+				"It's gonna get messy..."
+}
+
+CLUSTER 66
+{
+	flat = "017F"
+	music = "MU_FIVRM"
+	exitText = "Well, you're not an egghead, but you",
+				"think you can tell the big bad evil",
+				"demon monster when you see it.",
+				"Turns out, said big bad evil guy",
+				"Thought it was a good idea to merge",
+				"himself with the nuclear core of the",
+				"colony. He thought it'd give him power.",
+				"Lets just say his base elements",
+				"have been scattered across the universe",
+				"because of you. Time to relax and cash",
+				"in a big check for saving the entire",
+				"universe again!"
+}
+
+CLUSTER 67
+{
+	flat = "010F"
+	music = "MU_FIVRM"
+	enterText = "Moot took the fukken donations",
+				"and ran to mootxico!!",
+				"",
+				"GET DAT MUTHAFUGGA!!!1!"
+}
+
+CLUSTER 68
+{
+	flat = "011F"
+	music = "MU_FIVRM"
+	enterText = "Your fortune:",
+				"Godly Luck"
+}

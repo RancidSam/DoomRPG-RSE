@@ -1,0 +1,8 @@
+server bool drpg_vr_200m = true;
+server bool drpg_vr_300m = true;
+server bool drpg_vr_100m = true;
+server bool drpg_vr_2048u = true;
+server bool drpg_vr_2048x = true;
+server bool drpg_vr_hffm = true;
+server bool drpg_vr_400m = true;
+server bool drpg_vr_512l = true;

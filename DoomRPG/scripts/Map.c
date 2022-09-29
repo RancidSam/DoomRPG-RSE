@@ -1362,7 +1362,7 @@ NamedScript void DecideMapEvent(LevelInfo *TargetLevel, bool FakeIt)
     // [KS] PS: I hate you already.
     if (MapPacks)
     {
-        str MapsIconOfSin[35] =
+        str MapsIconOfSin[44] =
         {
             "MAP30",
             "AV30",
@@ -1398,7 +1398,16 @@ NamedScript void DecideMapEvent(LevelInfo *TargetLevel, bool FakeIt)
             "WID30",
             "WOS30",
             "ZTH30",
-            "ZOF30"
+            "ZOF30",
+            "TWO30",	// /vr/ Catalog
+            "THR30",
+            "TWE30",
+            "FOU30",
+            "FIV09",
+            "FIV28",
+            "FIV30",
+            "FIV31",
+            "FIV32"
         };
 
         for (int i = 0; i < 35; i++)
@@ -3673,7 +3682,15 @@ NamedScript void InitMapPacks()
         "drpg_comp_neo01",
         "drpg_comp_ann01",
         "drpg_comp_99w01",
-        "drpg_comp_bth01"
+        "drpg_comp_bth01",
+        "drpg_vr_200m",	// /vr/ Catalog
+        "drpg_vr_300m",
+        "drpg_vr_100m",
+        "drpg_vr_2048u",
+        "drpg_vr_2048x",
+        "drpg_vr_hffm",
+        "drpg_vr_400m",
+        "drpg_vr_512l"
     };
 
     str LumpNames[MAX_MAPPACKS] =
@@ -3815,7 +3832,15 @@ NamedScript void InitMapPacks()
         "NEO01",
         "ANN01",
         "99W01",
-        "BTH01"
+        "BTH01",
+        "TWO01",	// /vr/ Catalog
+        "THR01",
+        "ONE01",
+        "TWE01",
+        "TWX01",
+        "HFF01",
+        "FOU01",
+        "FIV01"
     };
     int i;
     bool BlankStart;

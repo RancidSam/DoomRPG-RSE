@@ -1,0 +1,21 @@
+AddOptionMenu "DoomRPG"
+{
+	StaticText ""
+		SubMenu "/vr/ Catalog Options", "vrCatalog"
+}
+
+OptionMenu "vrCatalog"
+{
+	Title "/vr/ Catalog Options"
+	StaticText "ENTER to change"
+	StaticText "Changes require starting a new game!"
+	StaticText ""
+	Option "200 Minutes of /vr/", "drpg_vr_200m", "OnOff"
+	Option "300 Minutes of /vr/", "drpg_vr_300m", "OnOff"
+	Option "100 Minutes of /vr/", "drpg_vr_100m", "OnOff"
+	Option "2048 Units of /vr/", "drpg_vr_2048u", "OnOff"
+	Option "2048 Units - EX", "drpg_vr_2048x", "OnOff"
+	Option "HFFM", "drpg_vr_hffm", "OnOff"
+	Option "400 Minutes of /vr/", "drpg_vr_400m", "OnOff"
+	Option "512 Linedefs of /vr/", "drpg_vr_512l", "OnOff"
+}

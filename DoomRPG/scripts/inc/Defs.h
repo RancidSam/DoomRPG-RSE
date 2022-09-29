@@ -122,7 +122,6 @@
 // Aliases
 #define CallACS(script)         ACS_NamedExecuteWithResult((script))
 #define Arbitrator              (PlayerNumber() == 0)
-#define InSingleplayer          (GameType() == GAME_SINGLE_PLAYER)
 #define InMultiplayer           (GameType() == GAME_NET_COOPERATIVE)
 #define InTitle                 (GameType() == GAME_TITLE_MAP)
 #define GetMonsterID(N)         GetActorProperty((N), APROP_Score)
@@ -1209,8 +1208,21 @@ typedef enum
     COMP_BTH01
 } EnumCOMPMapSets;
 
+#define MAX_VRMAPPACKS 8
+typedef enum
+{
+    VR_TWO01,
+    VR_THR01,
+    VR_ONE01,
+    VR_TWE01,
+    VR_TWX01,
+    VR_HFF01,
+    VR_FOU01,
+    VR_FIV01
+} EnumVRMapSets;
+
 // Max Map Packs
-#define MAX_MAPPACKS  (MAX_WSMAPPACKS + MAX_LEXMAPPACKS + MAX_COMPMAPPACKS)
+#define MAX_MAPPACKS  (MAX_WSMAPPACKS + MAX_LEXMAPPACKS + MAX_COMPMAPPACKS + MAX_VRMAPPACKS)
 
 // --------------------------------------------------
 // Pointer Types

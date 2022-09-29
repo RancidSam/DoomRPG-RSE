@@ -10,4 +10,5 @@ Rampancy	Rampancy
 doom_complete	WadSmoosh
 Compendium	Compendium
 Lexicon	Lexicon
+vrCatalog	/vr/ Catalog
 DehackedAttack	Dehacked Attack

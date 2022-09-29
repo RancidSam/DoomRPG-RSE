@@ -2469,6 +2469,16 @@ void CheckCompatibility()
         Thing_Remove(TID);
     }
 
+    // /vr/ Catalog
+    Success = SpawnForced("DRPGvrCatalogActive", 0, 0, 0, TID, 0);
+    if (Success)
+    {
+        if (DebugLog)
+            Log("\CdDEBUG: \Ca/vr/ Catalog\C- detected");
+        MapPacks = true;
+        Thing_Remove(TID);
+    }
+
     // Extras
     Success = SpawnForced("DRPGExtrasIsLoaded", 0, 0, 0, TID, 0);
     if (Success)

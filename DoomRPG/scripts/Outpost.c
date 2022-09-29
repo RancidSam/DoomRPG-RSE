@@ -486,7 +486,15 @@ NamedScript MapSpecial void LevelTransport()
         "Neodoom",
         "Annie",
         "99 Ways to Die",
-        "Back to Hell"
+        "Back to Hell",
+        "200 Minutes of /vr/",	// /vr/ Catalog
+        "300 Minutes of /vr/",
+        "100 Minutes of /vr/",
+        "2048 Units of /vr/",
+        "2048 Units - Extra",
+        "HFFM",
+        "400 Minutes of /vr/",
+        "512 Linedefs of /vr/"
     };
 
     // So the player's initial interaction is not processed as a menu action
